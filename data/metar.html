@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>METAR Settings</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <markup>./page_head.html</markup>
+    <h2 class="title" style="background: #7D8EE2">  <span id="devicename"></span>METAR Settings</h2>
+    <form action="" method="get">
+        <table border="0" cellspacing="0" cellpadding="3" align="center">
+            <tr> <td align="right">Aeroport1</td>  <td>
+                    <select id="icao" name="icao">
+						<option value="UATE">Актау</option>
+						<option value="UATT">Актобе</option>
+						<option value="URKA">Анапа</option>
+						<option value="ULAA">Архангельск</option>
+						<option value="URWA">Астрахань</option>
+						<option value="UATG">Атырау</option>
+						<option value="UGSB">Батуми</option>
+						<option value="UUOB">Белгород</option>
+						<option value="LUBL">Бельцы</option>
+						<option value="ENBV">Берлевог</option>
+						<option value="UKBB">Борисполь</option>
+						<option value="ENBS">Ботсфьорд</option>
+						<option value="UUBP">Брянск</option>
+						<option value="LBBG">Бургас</option>
+						<option value="ENVD">Вадсё</option>
+						<option value="ENSS">Вардё</option>
+						<option value="LBWN">Варна</option>
+						<option value="UKWW">Винница</option>
+						<option value="UMII">Витебск</option>
+						<option value="URMO">Владикавказ</option>
+						<option value="URWW">Волгоград</option>
+						<option value="UUOO">Воронеж</option>
+						<option value="UMGG">Гомель</option>
+						<option value="UKKM">Гостомель</option>
+						<option value="URMG">Грозный</option>
+						<option value="UTAT">Дашогуз</option>
+						<option value="UKDD">Днепропетровск</option>
+						<option value="USSS">Екатеринбург</option>
+						<option value="UBBY">Закаталы</option>
+						<option value="UKDE">Запорожье</option>
+						<option value="LTAS">Зонгулдак</option>
+						<option value="EFIV">Ивало</option>
+						<option value="EFJO">Йоэнсуу</option>
+						<option value="UWKD">Казань</option>
+						<option value="LTAL">Кастамону</option>
+						<option value="EFKI">Каяани</option>
+						<option value="UKKK">Киев</option>
+						<option value="ENKR">Киркенес</option>
+						<option value="LUKK">Кишинёв</option>
+						<option value="LRCK">Констанца</option>
+						<option value="UAUU">Костанай</option>
+						<option value="URKK">Краснодар</option>
+						<option value="UKDR">Кривой Рог</option>
+						<option value="EFKU">Куопио</option>
+						<option value="UGKO">Кутаиси</option>
+						<option value="EFKS">Куусамо</option>
+						<option value="EFLP">Лаппеэнранта</option>
+						<option value="USCM">Магнитогорск</option>
+						<option value="URML">Махачкала</option>
+						<option value="EFMI">Миккели</option>
+						<option value="URMM">Минеральные Воды</option>
+						<option value="UMMS">Минск</option>
+						<option value="UMMM">Минск-1</option>
+						<option value="UMOO">Могилёв</option>
+						<option value="UUMO">Москва</option>
+						<option value="UUWW">Москва-Внуково</option>
+						<option value="UUDD">Москва-Домодедово</option>
+						<option value="UUEE">Москва-Шереметьево</option>
+						<option value="ULMM">Мурманск</option>
+						<option value="URMN">Нальчик</option>
+						<option value="UWKE">Нижнекамск</option>
+						<option value="UWGG">Нижний Новгород</option>
+						<option value="UKON">Николаев</option>
+						<option value="UTNN">Нукус</option>
+						<option value="UKOO">Одесса</option>
+						<option value="UWOO">Оренбург</option>
+						<option value="UWOR">Орск</option>
+						<option value="USPP">Пермь</option>
+						<option value="ULOO">Псков</option>
+						<option value="URRP">Ростов-на-Дону</option>
+						<option value="EFSA">Савонлинна</option>
+						<option value="UWWW">Самара</option>
+						<option value="LTFH">Самсун</option>
+						<option value="ULLI">Санкт-Петербург</option>
+						<option value="UWSG">Саратов</option>
+						<option value="URFF">Симферополь</option>
+						<option value="LTCM">Синоп</option>
+						<option value="URSS">Сочи</option>
+						<option value="URMT">Ставрополь</option>
+						<option value="LTFM">Стамбул</option>
+						<option value="UUYY">Сыктывкар</option>
+						<option value="UGTB">Тбилиси</option>
+						<option value="LTCG">Трабзон</option>
+						<option value="LRTC">Тулча</option>
+						<option value="UWLW">Ульяновск</option>
+						<option value="UARR">Уральск</option>
+						<option value="UTNU">Ургенч</option>
+						<option value="UWUU">Уфа</option>
+						<option value="LUBM">Флорешты</option>
+						<option value="UKHH">Харьков</option>
+						<option value="UWKS">Чебоксары</option>
+						<option value="USCC">Челябинск</option>
+						<option value="LTBU">Чорлу</option>
+						<option value="URWI">Элиста</option>
+						<option value="UUDL">Ярославль</option>
+						<option value="LRIA">Яссы</option>
+					</select> </td> </tr>
+           <tr> <td colspan="2" align="center"> <input type="submit"  value="Save"></td> </tr>
+        </table>
+    </form>
+
+	<markup>./page_bottom.html</markup>
+	<script src="GetJson.js" defer></script>
+	<script src="GetMarkup.js" defer></script>
+	<script src="microajax.js" defer></script>
+	<script>
+		window.onload = function() {
+			setTimeout(() => {
+				ApplyCVT("/system/info");
+                ApplyCVT("/metar/info");
+			}, 100);
+
+		};
+		function setMinMax() {
+            const el = document.getElementById("udptime");
+            if (el.value != "") {
+                if (parseInt(el.value) < parseInt(el.min)) {
+                    el.value = el.min;
+                }
+                if (parseInt(el.value) > parseInt(el.max)) {
+                    el.value = el.max;
+                }
+            }
+        };
+		</script>
+</body>
+
+</html>
